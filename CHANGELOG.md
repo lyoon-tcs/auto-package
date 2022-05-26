@@ -1,3 +1,15 @@
+# v0.1.2 (Thu May 26 2022)
+
+#### 🐛 Bug Fix
+
+- feat: update text to include cd workflow? [#6](https://github.com/lyoon-tcs/auto-package-test/pull/6) ([@lyoon-tcs](https://github.com/lyoon-tcs))
+
+#### Authors: 1
+
+- [@lyoon-tcs](https://github.com/lyoon-tcs)
+
+---
+
 # v0.1.1 (Thu May 26 2022)
 
 #### 🐛 Bug Fix
