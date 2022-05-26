@@ -1,0 +1,11 @@
+{
+  "plugins": [
+    "npm",
+    "released"
+  ],
+  "onlyPublishWithReleaseLabel": true,
+  "owner": "labby-tcs",
+  "repo": "<repo-name>",
+  "name": "labby-tcs",
+  "email": "labby@truechoicesolutions.com"
+}

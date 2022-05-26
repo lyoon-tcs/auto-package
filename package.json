@@ -8,5 +8,8 @@
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
+  },
+  "devDependencies": {
+    "auto": "^10.37.0"
   }
 }
