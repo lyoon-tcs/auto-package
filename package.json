@@ -1,0 +1,12 @@
+{
+  "name": "@lyoon-tcs/auto-package-test",
+  "version": "0.1.0",
+  "main:": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lyoon-tcs/auto-package-test.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
+}
