@@ -4,8 +4,8 @@
     "released"
   ],
   "onlyPublishWithReleaseLabel": true,
-  "owner": "labby-tcs",
-  "repo": "<repo-name>",
+  "owner": "lyoon-tcs",
+  "repo": "auto-package-test",
   "name": "labby-tcs",
   "email": "labby@truechoicesolutions.com"
 }
