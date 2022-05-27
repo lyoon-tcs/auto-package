@@ -6,7 +6,7 @@ v0.1.0 => Manually published initial package to GitHub Packages running `npm pub
 <br />
 v0.2.0 => Second release was through `npx auto shipit` (minor + release labels)
 <br />
-v0.3.0 => Third release was through CD Workflow => triggered `npx auto shipit`
+v0.3.0 => Third release was through CD Workflow => triggered `npx auto shipit` (minor + release labels)
 
 ### For v0.2.0 & v0.3.0 releases (using **auto**) - verified they both output:
 
