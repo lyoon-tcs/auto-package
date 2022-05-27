@@ -1,3 +1,15 @@
+# v0.3.0 (Fri May 27 2022)
+
+#### 🚀 Enhancement
+
+- test auto within CD Workflow [#9](https://github.com/lyoon-tcs/auto-package-test/pull/9) ([@lyoon-tcs](https://github.com/lyoon-tcs))
+
+#### Authors: 1
+
+- [@lyoon-tcs](https://github.com/lyoon-tcs)
+
+---
+
 # v0.2.0 (Fri May 27 2022)
 
 #### 🚀 Enhancement
