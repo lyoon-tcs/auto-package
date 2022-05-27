@@ -1,0 +1,30 @@
+name: Test Package Deployment
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          caache: 'npm'
+          registry-url: 'https://npm.pkg.github.com'
+
+      - name: Fetch tags
+        run: git fetch --tags
+
+      - name: Install
+        run: npm ci
+
+      - name: Release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npx auto shipit
