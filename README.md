@@ -1,12 +1,22 @@
 # auto-package-test
 
-- Practice creating a package, one basic function
-- Use vanilla JavaScript
-- Use auto to bump up package version to:
-  - bump up package.json version
-  - bump up version published package version
-  - bump up tag + push remotely
-  - create a release with reference to bumped up tag
-- Practice CI/CD using GitHub Actions
+Went through steps outlined here: https://truechoice.atlassian.net/wiki/spaces/ENG/pages/1821966343/Guide+Publish+Release+Packages+using+Auto+CD+Workflow+included
 
-* add more steps as I go through learning process.
+v0.1.0 => Manually published initial package to GitHub Packages running ``npm publish``
+v0.2.0 => Second publish was through ``npx auto shipit``
+v0.3.0 => Third publish was through CD Workflow => triggered ``npx auto shipit``
+
+For v0.2.0 & v0.3.0 releases - verified they both output
+1) package.json version bump
+2) git tag created locally + remotely
+3) latest package version published (both releases had ``minor`` + ``release`` labels)
+4) release created with reference to newest tag (#2)
+
+## If you want to use this package inside another project:
+``npm install @lyoon-tcs/auto-package-test@0.1.0``
+<br />
+index.js =>
+<br />
+``const package = require('@lyoon-tcs/auto-package-test');``
+<br />
+``console.log(package.getName('your-name'));``
